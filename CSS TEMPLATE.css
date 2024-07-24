@@ -1,0 +1,226 @@
+:root {
+--name: ">:]";
+--namecolor: #fff;
+--toplefttext: ":3";
+--toplefttextcolor: #13000a;
+--reload: "[R]";
+--reloadcolor: red;
+}
+#aMerger,
+#rankedSoonTm,
+#newsHolder,
+#youNewDiv,
+#onetrust-consent-sdk,
+#aHolder,
+.imageButton,
+#editorBtnM,
+.headerBarRight .verticalSeparator,
+#seasonLabel,
+.krSocial,
+#bubbleContainer,
+.endAHolder,
+#igXPBar,
+.button.small.buttonO img,
+#tlInfHold,
+#loadEditrBtn,
+.settingsBtn[onclick="openOneTrust()"],
+#ingameTable > tbody > tr > td > div > img,
+.menuSocialB,
+#mainLogoFace,
+#mapInfoHld,
+#streamContainer,
+#menuClassIcn,
+#voiceIcon,
+#recTimer,
+#chatInputHolder > div:nth-child(3),
+#leaderContainer > div > img,
+#bottomLeftTeamType,
+#bottomLeftTeamName,
+.newLeaderTeam,
+#topRightAdHolder
+#popupBack,
+#bundlePop, #premiumPop,
+#PC7WaterMark,
+.contPop,
+.setSugBox2,
+#mainLogo,
+.menuItemTitle{
+    display: none!important;
+}
+#mouseAccel_div { 
+         display: block  !important; 
+}
+.endTableN[style="color:#fff"] {
+    visibility: hidden;
+    font-size: 0 !important;
+}
+.endTableN[style="color:#fff"]::before { 
+    font-size: 20px !important;
+    visibility: visible;
+    content: var(--name);
+    color: var(--namecolor);
+    text-transform: var(--text-transform);
+}
+.leaderNameM { font-size: 0px; }
+.leaderNameM:after {
+    content: var(--name);
+    color: var(--namecolor);
+    font-size: 18px;
+}
+.newLeaderNameM { font-size: 0px; }
+.newLeaderNameM:after {
+    content: var(--name);
+    color: var(--namecolor);
+    font-size: 15px;
+}
+#menuAccountUsername{ font-size: 0px; }
+#menuAccountUsername::after {
+    content: var(--name);
+    font-size: 15px;
+}
+.menuClassPlayerName{ font-size: 0px; }
+.menuClassPlayerName::after {
+    content: var(--name);
+    color: var(--namecolor);
+    font-size: 15px;
+}
+#menuWindow > div.setBodH > div:nth-child(1) > a{ font-size: 0px; }
+#menuWindow > div.setBodH > div:nth-child(1) > a::after {
+    content: var(--name);
+    color: var(--namecolor);
+    font-size: 15px;
+}
+.leaderNameM::before,
+#menuAccountUsername::before,
+.menuClassPlayerName::before,
+.newLeaderNameM::before,
+.endTableN:visited::before,
+#menuWindow > div.setBodH > div:nth-child(1) > a::before {
+    font-family : 'Material Icons';
+    font-weight : normal;
+    font-style : normal;
+    font-size : 23.8px;;
+    letter-spacing : normal;
+    text-transform : none;
+    display : inline-block;
+    white-space : nowrap;
+    overflow-wrap : normal;
+    direction : ltr;
+    content : "check_circle " !important;
+    color : #40C4FF !important;
+    vertical-align : baseline;
+    margin-right : 3px;
+    margin-left : -4px;
+}
+#reloadMsg{ font-size: 0px; }
+#reloadMsg::after {
+    content: var(--reload);
+    color: var(--reloadcolor);
+    font-size: 25px;
+}
+#reloadMsg {
+    bottom: 35%;
+    border: none;
+    background: 0 0;
+    background-color: transparent;
+}
+#krTagHolder, #killStreakHolder {
+    background-color: rgba(0,0,0,.2);
+    border: 0px solid rgba(0,0,0,.1);
+    border-radius: 5px;
+}
+#krTagHolder {
+    position: fixed;
+    right:265px;
+    bottom:25px;
+}  
+#killStreakHolder {
+    position: fixed;
+    left: 53% !important;
+    top: 80% !important;
+}
+#matchInfo {
+visibility: hidden !important;
+}
+#matchInfo:after {
+    content: var(--toplefttext);
+    color: var(--toplefttextcolor);
+    font-size: 15px;
+    visibility: visible !important;
+    opacity: 1;
+    position: fixed;
+    top: 125px;
+    left: calc(1%);
+}
+#hiddenClasses {
+    display:flex !important;
+    flex-direction:row;
+    position:fixed;
+    left:50%;
+    bottom:13%;
+    transform:translate(-50%);
+    margin-right:10px;
+}
+#menuClassPicker0[onclick="selectClass(0)"],#menuClassPicker1[onclick="selectClass(1)"],#menuClassPicker2[onclick="selectClass(2)"],#menuClassPicker3[onclick="selectClass(3)"],#menuClassPicker4[onclick="selectClass(4)"],#menuClassPicker5[onclick="selectClass(5)"],#menuClassPicker6[onclick="selectClass(6)"],#menuClassPicker7[onclick="selectClass(7)"],#menuClassPicker8[onclick="selectClass(8)"],#menuClassPicker9[onclick="selectClass(9)"],#menuClassPicker10[onclick="selectClass(10)"],#menuClassPicker11[onclick="selectClass(11)"],#menuClassPicker12[onclick="selectClass(12)"],#menuClassPicker13[onclick="selectClass(13)"],#menuClassPicker14[onclick="selectClass(14)"],#menuClassPicker15[onclick="selectClass(15)"] {
+	display:block;
+	width:60px;
+	height:60px;
+	pointer-events:auto;
+	image-rendering:pixelated;
+	margin-right:10px;
+    filter:saturate(0);
+    transition:filter 0.5s;
+}
+#menuClassPicker0[onclick="selectClass(0)"] {
+    content:url(https://assets.krunker.io/textures/classes/icon_0.png?build=uLz7w);
+}
+#menuClassPicker1[onclick="selectClass(1)"] {
+    content:url(https://assets.krunker.io/textures/classes/icon_1.png?build=uLz7w);
+}
+#menuClassPicker2[onclick="selectClass(2)"] {
+    content:url(https://assets.krunker.io/textures/classes/icon_2.png?build=uLz7w);
+}
+#menuClassPicker3[onclick="selectClass(3)"] {
+    content:url(https://assets.krunker.io/textures/classes/icon_3.png?build=uLz7w);
+}
+#menuClassPicker4[onclick="selectClass(4)"] {
+    content:url(https://assets.krunker.io/textures/classes/icon_4.png?build=uLz7w);
+}
+#menuClassPicker5[onclick="selectClass(5)"] {
+    content:url(https://assets.krunker.io/textures/classes/icon_5.png?build=uLz7w);
+}
+#menuClassPicker6[onclick="selectClass(6)"] {
+    content:url(https://assets.krunker.io/textures/classes/icon_6.png?build=uLz7w);
+}
+#menuClassPicker7[onclick="selectClass(7)"] {
+    content:url(https://assets.krunker.io/textures/classes/icon_7.png?build=uLz7w);
+}
+#menuClassPicker8[onclick="selectClass(8)"] {
+    content:url(https://assets.krunker.io/textures/classes/icon_8.png?build=uLz7w);
+}
+#menuClassPicker9[onclick="selectClass(9)"] {
+    content:url(https://assets.krunker.io/textures/classes/icon_9.png?build=uLz7w);
+}
+#menuClassPicker10[onclick="selectClass(10)"] {
+    content:url(https://assets.krunker.io/textures/classes/icon_10.png?build=uLz7w);
+}
+#menuClassPicker11[onclick="selectClass(11)"] {
+    content:url(https://assets.krunker.io/textures/classes/icon_11.png?build=uLz7w);
+}
+#menuClassPicker12[onclick="selectClass(12)"] {
+    content:url(https://assets.krunker.io/textures/classes/icon_12.png?build=uLz7w);
+}
+#menuClassPicker13[onclick="selectClass(13)"] {
+    content:url(https://assets.krunker.io/textures/classes/icon_13.png?build=uLz7w);
+}
+#menuClassPicker14[onclick="selectClass(14)"] {
+    content:url(https://assets.krunker.io/textures/classes/icon_14.png?build=uLz7w);    
+}
+#menuClassPicker15[onclick="selectClass(15)"] {
+    content:url(https://assets.krunker.io/textures/classes/icon_15.png?build=uLz7w);
+}
+#menuClassPicker0[onclick="selectClass(0)"]:hover,#menuClassPicker1[onclick="selectClass(1)"]:hover,#menuClassPicker2[onclick="selectClass(2)"]:hover,#menuClassPicker3[onclick="selectClass(3)"]:hover,#menuClassPicker4[onclick="selectClass(4)"]:hover,#menuClassPicker5[onclick="selectClass(5)"]:hover,#menuClassPicker6[onclick="selectClass(6)"]:hover,#menuClassPicker7[onclick="selectClass(7)"]:hover,#menuClassPicker8[onclick="selectClass(8)"]:hover,#menuClassPicker9[onclick="selectClass(9)"]:hover,#menuClassPicker10[onclick="selectClass(10)"]:hover,#menuClassPicker11[onclick="selectClass(11)"]:hover,#menuClassPicker12[onclick="selectClass(12)"]:hover,#menuClassPicker13[onclick="selectClass(13)"]:hover,#menuClassPicker14[onclick="selectClass(14)"]:hover,#menuClassPicker15[onclick="selectClass(15)"]:hover {
+    cursor:pointer;
+    filter:saturate(1) drop-shadow(0 0 20px var(--accent));
+    transition:filter 0.5s;
+}
